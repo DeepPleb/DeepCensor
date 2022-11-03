@@ -15,3 +15,19 @@ Using profane language can land you in trouble. But with the help of AI, we can 
 * Deepgram Python SDK [https://deepgram.com/]
 * ffmpeg [https://ffmpeg.org/]
 
+## Usage
+Install Deepgram Python SDK:
+
+`pip install deepgram-sdk`
+
+
+
+Install ffmpeg:
+
+`pip install ffmpeg-python`
+
+
+
+Run script.py. Make sure you've added the correct .wav audio file path:
+
+`python script.py`
