@@ -8,7 +8,7 @@ Using profane language can land you in trouble. But with the help of AI, we can 
 ## Use Cases
 * **Youtube videos**: Videos containing too many swear words can get a video demonetized. With DeepCensor a creator can make sure this doesn't happen. 
 * **Explicit music**: Making a radio version of an explicit version especially using the `video` model that [DeepGram](https://developers.deepgram.com/documentation/features/model/) provides.
-* **LIve News**: Live news might often contain swears. Profane language can easily be censored using the [live transcription](https://developers.deepgram.com/documentation/getting-started/streaming/) feature.
+* **Live News**: Live news might often contain swears. Profane language can easily be censored using the [live transcription](https://developers.deepgram.com/documentation/getting-started/streaming/) feature.
 
 
 ## Requirements:
