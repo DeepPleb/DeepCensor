@@ -31,3 +31,5 @@ Install ffmpeg:
 Run script.py. Make sure you've added the correct .wav audio file path:
 
 `python script.py`
+
+After you run the script you should see a .wav file called 'out.wav' in your folder
