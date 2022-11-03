@@ -1,3 +1,3 @@
 # DeepCensor
-## Censor swear words automatically using Speech-to-Text
+## Censor swear words automatically using Speech-to-Text.
 
