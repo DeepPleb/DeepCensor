@@ -4,12 +4,12 @@ import asyncio, json
 import sys
 
 # Your Deepgram API Key
-DEEPGRAM_API_KEY = 'fffff14aa4ecc90da6f276833599552234f44c1b'
+DEEPGRAM_API_KEY = '#######################'
 
 # Location of the file you want to transcribe. Should include filename and extension.
 # Example of a local file: ../../Audio/life-moves-pretty-fast.wav
 # Example of a remote file: https://static.deepgram.com/examples/interview_speech-analytics.wav
-FILE = r"C:\Users\Sarthak\OneDrive\Desktop\Burr.wav"
+FILE = "Your File Path"
 
 # Mimetype for the file you want to transcribe
 # Include this line only if transcribing a local file
@@ -44,7 +44,7 @@ async def main():
     deepgram.transcription.prerecorded(
       source,
       {
-        'punctuate': True, 'diarize': True, 'tier' : 'enhanced'
+        'punctuate': True, 'tier' : 'enhanced'
               }
     )
   )
@@ -82,17 +82,6 @@ async def main():
   final = 'ffmpeg -i {0} -c:v copy -af {1} out.wav'.format(FILE, vol1)
   print(final)
   os.system(final)
-
-
-#  with open('tr.txt', 'w') as f:
-#    f.write(transcipt)
-
-
-  # Write the response to the console
- # print(json.dumps(response, indent=4))
-
-  # Write only the transcript to the console
-  #print(response["results"]["channels"][0]["alternatives"][0]["transcript"])
 
 try:
   # If running in a Jupyter notebook, Jupyter is already running an event loop, so run main with this line instead:
