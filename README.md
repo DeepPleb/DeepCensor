@@ -1,7 +1,7 @@
 # DeepCensor
 ## Censor swear words automatically using Speech-to-Text.
 
-Here's a [demo](http://sndup.net/q924) (Contains 18+ language!)
+Here's a [demo](http://sndup.net/q924) (Contains profane language!)
 
 Using profane language can land you in trouble. But with the help of AI, we can censor swear words automatically. DeepCensor is a piece of python code that can mute swear words in any audio/video file **automatically**.
 
